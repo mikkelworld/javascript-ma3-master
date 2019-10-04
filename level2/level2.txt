@@ -3,19 +3,34 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+	JavaScript Code Style is the practice of following a set of norms or an established style when writing and formatting JS code. Use of good code style makes your code much easier to read and understand by other developers (or yourself) who may work on your code at a later date. 
 
 2. What is a Regular Expression?
+	Regular Expressions are patterns that we can define and then test strings against, to see if they match the pattern or not. This allows us to create a set of rules that a string must follow in order to pass the test. Common examples of use cases for RegEx are form validations where you can ensure that a field only contains alphabetical characters, matches a specific phone number format or contains a valid email address.
 
 3. What does the .random() method do?
+	The method returns a random number between 0 and 1.
 
 4. What does the .sort() method do?
+	It sorts an array alphabetically (by default), or if provided with a function to use for comparison - sorts the array by your own terms.
 
 5. What does the .reverse() method do?
+	It reverses the order of an array, turning for example [a,b,c] into [c,b,a].
 
 6. List two examples of bad JavaScript code.
+	// Improper use of '=', '==' and '==='
+	if (a = b) {}
+
+	// Poor use of indentation. Makes it hard to read the code
+	if (x >= 10) {
+	console.log("THE BIGGEST NUMBERS");
+	}
 
 7. What data types can a JSON object contain?
+	Objects, arrays, strings, numbers, booleans and null
 
 8. What is minifying JavaScript Code?
+	Minifying JS code means to make the code as small as possible while maintaining its functionality. It can be done by removing whitespaces and line breaks, shortening variable names and function names etc. The reason for this is usually to make the code as small as possible in order for it to load faster when used on live websites. It effectively makes the code impossible to understand at a glance.
 
 9. What is a global variable?
+	A global variable is a variable defined in the global scope, meaning it is accesible from the entire script. A local variable on the other hand is defined within a local scope such as a function, and can therefore only be accessed within that function. Using global and local variables efficiently leads to cleaner code.
